@@ -72,7 +72,7 @@
                                     </tr>
                                 </thead>
 
-                                <tbody>
+                                <tbody id='myTable'>
 
                                     @forelse ($tasks as $tasks)
                                         <tr>
