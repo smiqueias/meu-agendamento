@@ -33,10 +33,11 @@
     <div class="limiter">
         <div class="container-login100" style="background-image: url('/images/bg-01.jpg');">
             <div class="wrap-login100-3 p-t-30 p-b-50">
-                <span class="login100-form-title p-b-41">
-                    Editar Agendamento
-                </span>
+                <img id="logo" src="{{ asset('/images/icons/logo.png') }}" alt="logo">
                 <div class="container">
+                    <span class="login100-form-title p-b-41">
+                        Editar Agendamento
+                    </span>
                     <form action="{{route('update_task', ['id' => $task->id])}}" method="POST">
                         @csrf
                         @method('PUT')
