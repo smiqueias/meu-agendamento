@@ -53,7 +53,7 @@
 
                         <button type="submit" class="btn btn-success">Enviar</button>
                         <button type="reset" class="btn btn-danger">Cancelar</button>
-                        <a id="btn-voltar" class="btn btn-primary" href="{{route('menu_screen')}}" role="button">Voltar</a>
+                        <a id="btn-voltar" class="btn btn-primary" href="{{route('show_all_tasks')}}" role="button">Voltar</a>
                         <div id="mensagem">
                             @include('flash::message') 
                         </div>
