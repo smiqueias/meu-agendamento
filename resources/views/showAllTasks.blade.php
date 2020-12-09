@@ -81,12 +81,12 @@
                                             <td>{{ date('d/m/y', strtotime($tasks->data)) }}</td>
 
                                             <td id="alterar">
-                                                <a  href="{{route("show_task", ['id' => $tasks->id])}}"><i class="material-icons">edit</i></a>  
+                                                <a id="alterar" href="{{route("show_task", ['id' => $tasks->id])}}"><i class="material-icons">edit</i></a>  
                                             </td>
 
                                             <td id="excluir">
                                                 
-                                               <a  href="{{route('delete_task', ['id' => $tasks->id])}}" class="excluir">
+                                               <a id="excluir" href="{{route('delete_task', ['id' => $tasks->id])}}" class="excluir">
                                                     <i class="material-icons">delete</i>
                                                 </a>
 
